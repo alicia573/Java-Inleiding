@@ -1,4 +1,4 @@
-package h05;
+package h06;
 
 
 import java.awt.*;
