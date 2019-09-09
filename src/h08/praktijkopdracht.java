@@ -5,7 +5,7 @@ import java.applet.*;
 import javax.swing.*;
 
 
-public class okknop1 extends Applet {
+public class praktijkopdracht extends Applet {
     double a,b,c,d,e, uitkomst;
 
     int decimaalgetal;
