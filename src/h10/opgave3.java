@@ -13,7 +13,7 @@ public class opgave3 extends Applet {
 
     public void init() {
         tekstvak = new TextField("", 20);
-        label = new Label("Type het maanden en druk op enter");
+        label = new Label("Type een nummer van een maand.");
         tekstvak.addActionListener( new TekstvakListener() );
         tekst = "";
         tekst2 = "";
