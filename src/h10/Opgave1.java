@@ -18,7 +18,6 @@ public class Opgave1 extends Applet {
 
     public void init() {
         hoogsteGetal = 0;
-        laagsteGetal = 0;
         getal = 0;
         geklikt = false;
         fout = false;
@@ -33,7 +32,6 @@ public class Opgave1 extends Applet {
     public void paint(Graphics g) {
         if (fout == false) {
             g.drawString("Hoogste Getal: " + hoogsteGetal, 50, 60);
-            g.drawString("Laagste Getal: " + laagsteGetal, 50, 80);
         } else {
             g.drawString("" + error, 50, 60);
             fout = false;
@@ -48,12 +46,9 @@ public class Opgave1 extends Applet {
                 if (getal > hoogsteGetal && getal != Integer.MAX_VALUE && getal < Integer.MAX_VALUE) {
                     hoogsteGetal = getal;
                 }
-                if (getal < laagsteGetal && getal != Integer.MIN_VALUE && getal > Integer.MIN_VALUE) {
-                    laagsteGetal = getal;
-                }
 
                 if (geklikt == false) {
-                    laagsteGetal = hoogsteGetal;
+                    hoogsteGetal=hoogsteGetal;
                 }
                 tekstvak.setText("");
                 geklikt= true;
@@ -61,7 +56,7 @@ public class Opgave1 extends Applet {
                 repaint();
             } catch (NumberFormatException exc) {
                 fout = true;
-                error = "Verkeerde Variable";
+                error = "Verkeerde Nummer";
                 tekstvak.setText("");
                 repaint();
             }
