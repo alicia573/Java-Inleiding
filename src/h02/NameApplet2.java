@@ -3,7 +3,7 @@ package h02;
 import java.awt.*;
 import java.applet.*;
 
-public class nameapplet2 extends Applet
+public class NameApplet2 extends Applet
   {
       Font f1, f2;
 
