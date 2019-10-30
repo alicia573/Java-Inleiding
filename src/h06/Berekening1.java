@@ -4,7 +4,7 @@ import java.awt.*;
 import java.applet.*;
 
 
-public class berekening1 extends Applet {
+public class Berekening1 extends Applet {
     int a;
     int b;
 

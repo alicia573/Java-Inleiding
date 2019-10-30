@@ -5,7 +5,7 @@ import java.applet.Applet;
 import java.awt.*;
 
 
-public class praktijkopdracht2 extends Applet {
+public class PraktijkOpdracht2 extends Applet {
     //declaratie.
     private Color opvulkleur;
     Color lijnkleur;

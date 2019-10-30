@@ -6,11 +6,11 @@ import java.awt.event.*;
 
 
 
-public class knop3 extends Applet implements ActionListener {
+public class Knop3 extends Applet implements ActionListener {
     Font f1, f2;
     TextField firstNum, resultNum;
 
-    public knop3() {
+    public Knop3() {
         setLayout (new GridLayout (8, 6, 2, 80));
         setBackground (Color.WHITE);
 

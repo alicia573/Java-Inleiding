@@ -5,7 +5,7 @@ import java.applet.*;
 import java.awt.event.*;
 
 
-public class opgave3 extends Applet {
+public class Opgave3 extends Applet {
     TextField tekstvak;
     Label label;
     String s, tekst, tekst2;
@@ -80,7 +80,7 @@ public class opgave3 extends Applet {
                     tekst2= "Aantal dagen: 31 Dagen ";
                     break;
                 default:
-                    tekst = "Verkeerd Nummer!";
+                    tekst = "Verkeerd Nummer!" + s ;
                     break;
             }
             repaint();

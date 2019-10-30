@@ -7,7 +7,7 @@ import java.awt.*;
   import java.awt.*;
   import java.applet.*;
 
-    public class dobbelsteen extends Applet {
+    public class Dobbelsteen extends Applet {
 
         public void init() {
 

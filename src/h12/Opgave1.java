@@ -10,8 +10,8 @@ public class Opgave1 extends Applet {
 
     public void init() {
         kledinggeld = new int[10];
-        optellen = 15;
-        beginGetal = 0;
+        optellen = 5;
+        beginGetal = 5;
         totaalKledinggeld = 0;
         for (maand = 0; maand < kledinggeld.length; maand++) {
             kledinggeld [maand] = optellen*maand + beginGetal;
@@ -24,7 +24,7 @@ public class Opgave1 extends Applet {
             gemiddelde = totaalKledinggeld / kledinggeld.length;
             for (maand = 0; maand < kledinggeld.length; maand++) {
                 g.drawString ("" + kledinggeld[maand], 50, 20*maand + 20);
-                g.drawString ("Het gemiddelde is: " + gemiddelde, 50, 220);
+                g.drawString ("Het gemiddelde per maand is : " + gemiddelde, 50, 220);
 
 
             }

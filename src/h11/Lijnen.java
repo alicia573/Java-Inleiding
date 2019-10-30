@@ -3,7 +3,7 @@ package h11;
 import java.applet.Applet;
 import java.awt.*;
 
-public class lijnen  extends Applet{
+public class Lijnen extends Applet{
 
 
 

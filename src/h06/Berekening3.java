@@ -4,7 +4,7 @@ package h06;
 import java.awt.*;
 import java.applet.*;
 
-public class berekening3 extends Applet {
+public class Berekening3 extends Applet {
     int a;
     int b;
 

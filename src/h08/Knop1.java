@@ -5,11 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class knop1 extends Applet{
+public class Knop1 extends Applet{
     public Button knop;
     public Button knop2;
     public TextField tekstvak;
-    public TextField tekstvak1;
     public String OK,Reset;
     String schermtekst;
     public void init() {
@@ -26,24 +25,28 @@ public class knop1 extends Applet{
         add(tekstvak);
 
 
-    }
-    public void paint(Graphics g) {
 
+    }
+
+
+    public void paint(Graphics g) {
+        g.drawString ("" + OK, 100, 100);
     }
 
     class KnopListener implements ActionListener {
         public void actionPerformed( ActionEvent e ) {
             tekstvak.setText(" ");
             OK= tekstvak.getText();
+
             repaint();
         }
     }
 
     class Knop2Listener implements ActionListener {
         public void actionPerformed( ActionEvent e) {
-            tekstvak.setText("Dat is het goede antwoord. ");
+
             schermtekst = "Ja, deze knop doet wel iets";
-            Reset = tekstvak1.getText();
+            Reset = tekstvak.getText();
             repaint();
         }
     }

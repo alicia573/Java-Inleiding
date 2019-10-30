@@ -1,10 +1,11 @@
 package h04;
 
+//Voorbeeld 4.1
 
 import java.awt.*;
 import java.applet.*;
 
-public class driehoek extends Applet {
+public class Driehoek extends Applet {
 
     public void init() {
     }

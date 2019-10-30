@@ -4,7 +4,7 @@ import java.awt.*;
 import java.applet.*;
 import java.awt.color.*;
 
-public class praktijkopdracht extends Applet {
+public class Praktijkopdracht extends Applet {
 
     public void init() {
 

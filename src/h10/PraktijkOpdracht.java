@@ -6,7 +6,7 @@ import java.applet.*;
 import java.awt.event.*;
 
 
-public class praktijkopdracht extends Applet {
+public class PraktijkOpdracht extends Applet {
     TextField tekstvak;
     Label label;
     String s, tekst;

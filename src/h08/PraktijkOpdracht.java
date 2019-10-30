@@ -4,7 +4,7 @@ import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Praktijkopdracht extends Applet {
+public class PraktijkOpdracht extends Applet {
     Button maal, plus, delen, aftrekken;
     TextField invoervak1, invoervak2, resultaat;
     double invoergetal1, invoergetal2, resultaatgetal;

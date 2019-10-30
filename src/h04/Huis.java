@@ -3,7 +3,7 @@ package h04;
 import java.awt.*;
 import java.applet.*;
 
-public class huis extends Applet {
+public class Huis extends Applet {
 
     public void init() {
     }
@@ -19,6 +19,7 @@ public class huis extends Applet {
         g.setColor(Color.blue);
         g.fillRect(1000, 650, 150, 300);
         g.setColor(Color.black);
+        g.fillRect(750, 810, 100, 5);
         g.setColor(Color.green);
         g.fillRect(750, 470, 100, 100);
 

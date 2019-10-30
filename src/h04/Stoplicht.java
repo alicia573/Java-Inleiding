@@ -2,7 +2,7 @@ package h04;
 import java.awt.*;
 import java.applet.*;
 
-public class stoplicht extends Applet {
+public class Stoplicht extends Applet {
 
     public void init() {
 

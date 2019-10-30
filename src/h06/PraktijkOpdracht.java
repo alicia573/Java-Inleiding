@@ -5,8 +5,9 @@ import java.applet.*;
 import javax.swing.*;
 
 
-public class praktijkopdracht extends Applet {
+public class PraktijkOpdracht extends Applet {
     double a,b,c,d,e, uitkomst;
+
 
     int decimaalgetal;
     public void init () {

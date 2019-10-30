@@ -9,7 +9,7 @@ import java.awt.*;
     }
 
 
-    // Een methode die de inhoud van het scherm tekent.
+
     public void paint(Graphics g) {
         int xCoordinaat = 0, yCoordinaat = 0, aantalCirkels = 100, lengte = 10, breedte = 10;
         for (int teller = 0; teller < aantalCirkels; teller++){

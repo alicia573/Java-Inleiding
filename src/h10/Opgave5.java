@@ -5,7 +5,7 @@ import java.applet.*;
 import java.awt.event.*;
 
 
-public class opgave5 extends Applet {
+public class Opgave5 extends Applet {
 
      double cijfer;
     TextField tekstvak;

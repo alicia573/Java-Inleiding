@@ -4,7 +4,7 @@ package h06;
 import java.awt.*;
 import java.applet.*;
 
-public class berekening2 extends Applet {
+public class Berekening2 extends Applet {
     int a;
     int b;
     int c;
@@ -22,7 +22,7 @@ public class berekening2 extends Applet {
         c = 365;
 
         uitkomst = (a*a);
-        uitkomst1= (a*a*b); 
+        uitkomst1= (a*a*b);
         uitkomst2=(c*b*a*a);
     }
 

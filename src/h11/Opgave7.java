@@ -10,7 +10,8 @@ public void init() {
         }
 
 public void paint(Graphics g) {
-        int xCoordinaat = 500, yCoordinaat = 500, aantalCirkels = 50, lengte = 10, breedte = 10; for (int teller = 0; teller < aantalCirkels; teller++) {
+        int xCoordinaat = 500, yCoordinaat = 500, aantalCirkels = 50, lengte = 10, breedte = 10;
+        for (int teller = 0; teller < aantalCirkels; teller++) {
             g.drawOval (xCoordinaat, yCoordinaat, breedte, lengte);
             lengte += 15;
             breedte += 15;

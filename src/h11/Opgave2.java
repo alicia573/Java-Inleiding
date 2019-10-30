@@ -3,7 +3,7 @@ package h11;
 import java.applet.Applet;
 import java.awt.*;
 
-public class opgave2 extends Applet {
+public class Opgave2 extends Applet {
     Font f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11;
 
 

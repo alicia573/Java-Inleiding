@@ -7,7 +7,8 @@ import java.applet.*;
 import java.awt.event.*;
 
 
-public class Praktijkopdracht2 extends Applet {
+@SuppressWarnings("serial")
+public class PraktijkOpdracht1 extends Applet {
     TextField tekst;
     String fout, tafels, error;
     Label label;
@@ -33,7 +34,7 @@ public class Praktijkopdracht2 extends Applet {
 
     public void paint(Graphics g) {
         if (geklikt == true) {
-            if (foutmelding == false ) {
+            if (foutmelding == false) {
                 y = 60;
                 x = 50;
                 for (int i = 1; i <= 10; i++) {
@@ -53,6 +54,7 @@ public class Praktijkopdracht2 extends Applet {
             try {
                 cijfer = Integer.parseInt(tekst.getText());
                 if (cijfer >= 1 && cijfer <= 10) {
+                    getal = cijfer + getal;
                     tekst.setText("");
                 }
                 geklikt = true;

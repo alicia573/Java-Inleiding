@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 @SuppressWarnings("serial")
-public class Praktijkopdracht1 extends Applet {
+public class PraktijkOpdracht1 extends Applet {
     TextField nameField, numberField;
     Button okKnop;
     String nameArray[], numberArray[], error;

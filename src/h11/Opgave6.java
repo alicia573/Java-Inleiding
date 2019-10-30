@@ -10,10 +10,6 @@ public class Opgave6 extends Applet {
     public void init(){
 
 
-
-
-
-
     }
 
     public void paint ( Graphics g){
@@ -22,7 +18,6 @@ public class Opgave6 extends Applet {
         g.drawOval (880,480, 90, 90);
         g.drawOval (870,470, 110, 110);
         g.drawOval (860,460,130 , 130);
-
 
 
 
