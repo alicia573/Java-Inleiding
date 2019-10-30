@@ -1,7 +1,7 @@
 package h02;
 
 
-//Naam met achtergrond
+
 
 import java.awt.*;
 import java.applet.*;

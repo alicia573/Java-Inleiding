@@ -1,6 +1,6 @@
 package h02;
 
-//Voorbeeld 2.2
+
 
 import java.awt.*;
 import java.applet.*;

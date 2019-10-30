@@ -2,7 +2,6 @@ package h02;
 
 import java.awt.*;
 import java.applet.*;
-import java.awt.Font.*;
 
 public class nameapplet2 extends Applet
   {
