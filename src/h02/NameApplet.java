@@ -6,7 +6,7 @@ package h02;
 import java.awt.*;
 import java.applet.*;
 
-public class nameapplet extends Applet {
+public class NameApplet extends Applet {
 
     public void init() {  setBackground(Color.blue);}
 
