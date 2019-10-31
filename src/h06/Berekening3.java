@@ -8,16 +8,14 @@ public class Berekening3 extends Applet {
     int a;
     int b;
 
-
-
     int uitkomst;
 
     public void init () {
 
-        a= 9;
-        b= 16;
+        a= 2000000000;
+        b= 1000000000 ;
 
-        uitkomst= (9-16);
+        uitkomst= (a+b);
     }
     public void paint(Graphics g) {
         g.drawString("Antwoord= "+uitkomst, 50, 50);
